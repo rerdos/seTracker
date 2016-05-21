@@ -1,2 +1,2 @@
 # seTracker
-Series Tracker for series lovers
+Series Tracker for series lovers.

@@ -1,0 +1,23 @@
+{
+  "name": "setracker",
+  "version": "0.0.1",
+  "description": "Series Tracker for series lovers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rerdos/seTracker.git"
+  },
+  "keywords": [
+    "series",
+    "tracker"
+  ],
+  "author": "Richard Erdos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rerdos/seTracker/issues"
+  },
+  "homepage": "https://github.com/rerdos/seTracker#readme"
+}
