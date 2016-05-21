@@ -4,6 +4,7 @@
   "description": "Series Tracker for series lovers",
   "main": "index.js",
   "scripts": {
+    "start": "node ./node_modules/http-server/bin/http-server ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rerdos/seTracker/issues"
   },
-  "homepage": "https://github.com/rerdos/seTracker#readme"
+  "homepage": "https://github.com/rerdos/seTracker#readme",
+  "devDependencies": {
+    "http-server": "0.9.0"
+  }
 }
