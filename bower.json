@@ -1,0 +1,27 @@
+{
+  "name": "seTracker",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rerdos/seTracker",
+  "authors": [
+    "Richard Erdos <richard.erdos@me.com>"
+  ],
+  "description": "Series Tracker for series lovers",
+  "main": "index.js",
+  "moduleType": [],
+  "keywords": [
+    "series",
+    "tracker"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.5"
+  }
+}

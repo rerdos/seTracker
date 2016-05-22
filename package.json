@@ -1,10 +1,10 @@
 {
-  "name": "setracker",
+  "name": "se-tracker",
   "version": "0.0.1",
   "description": "Series Tracker for series lovers",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server ./src",
+    "start": "node ./node_modules/http-server/bin/http-server ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,11 @@
   },
   "homepage": "https://github.com/rerdos/seTracker#readme",
   "devDependencies": {
-    "http-server": "0.9.0"
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-flatten": "^0.2.0",
+    "gulp-inject": "^4.1.0",
+    "http-server": "0.9.0",
+    "run-sequence": "^1.2.0"
   }
 }
